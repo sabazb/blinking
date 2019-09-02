@@ -24,14 +24,18 @@ uint32_t getRandomDelay(){
     uint32_t random = esp_random();
     return 50 + random / 9544371 ;
 }
-uint8_t *buffer = 0;
-uint8_t length = 0;
+uint8_t buffer[4];
+//uint8_t length = 0;
  void blink_task(void *pvParameter){
      gpio_pad_select_gpio(CONFIG_BLINK_GPIO);
      gpio_set_direction(CONFIG_BLINK_GPIO, GPIO_MODE_OUTPUT);
-     buffer[4] = {1 , 1 , 0 , 0};
-     length = sizeof(buffer);
-    for(int i = 0 ; i < length ; i++){
+     buffer[0] = 1;
+     buffer[1] = 0;
+     buffer[2] = 1;
+     buffer[3] = 0;
+        
+     //length = sizeof(buffer);
+    for(int i = 0 ; i < 4 ; i++){
         for(int b = 0 ; b < 8 ; b++ ){
            int state = (buffer[i] >> b ) & 1 ;
            if(state == 0){
