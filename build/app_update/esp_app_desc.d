@@ -1,7 +1,7 @@
 esp_app_desc.o: \
  /Users/saba/esp/esp-idf/components/app_update/esp_app_desc.c \
  /Users/saba/esp/esp-idf/components/newlib/platform_include/assert.h \
- /Users/saba/esp/esp-idf/examples/get-started/blink/build/include/sdkconfig.h \
+ /Users/saba/Desktop/blinking/build/include/sdkconfig.h \
  /Users/saba/esp/esp-idf/components/app_update/include/esp_ota_ops.h \
  /Users/saba/esp/esp-idf/components/esp_common/include/esp_err.h \
  /Users/saba/esp/esp-idf/components/spi_flash/include/esp_partition.h \
@@ -17,7 +17,7 @@ esp_app_desc.o: \
 
 /Users/saba/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/Users/saba/esp/esp-idf/examples/get-started/blink/build/include/sdkconfig.h:
+/Users/saba/Desktop/blinking/build/include/sdkconfig.h:
 
 /Users/saba/esp/esp-idf/components/app_update/include/esp_ota_ops.h:
 
