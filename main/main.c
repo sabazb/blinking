@@ -35,11 +35,11 @@ uint8_t buffer[4];
  void blink_task(void *pvParameter){
      gpio_pad_select_gpio(CONFIG_BLINK_GPIO);
      gpio_set_direction(CONFIG_BLINK_GPIO, GPIO_MODE_OUTPUT);
-    buffer[0] = 0b01001010;
+    buffer[0] = 0b01011010;
      buffer[1] = 0b10010101;
-     buffer[2] = 0b11010101;
-     buffer[3] = 0b11110101;
-    uint64_t period = 1000; 
+     buffer[2] = 0b10010110;
+     buffer[3] = 0b01101001;
+    uint64_t period = 100000; 
      //length = sizeof(buffer);
      int i = 0 ;
    // for(int i = 0 ; i < 4 ; i++){
