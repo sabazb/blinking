@@ -53,7 +53,8 @@ main.o: /Users/saba/Desktop/blinking/main/main.c \
  /Users/saba/esp/esp-idf/components/log/include/esp_log.h \
  /Users/saba/esp/esp-idf/components/log/include/esp_log_internal.h \
  /Users/saba/esp/esp-idf/components/soc/esp32/include/soc/timer_group_struct.h \
- /Users/saba/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h
+ /Users/saba/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h \
+ /Users/saba/esp/esp-idf/components/esp_common/include/esp_task_wdt.h
 
 /Users/saba/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -164,4 +165,6 @@ main.o: /Users/saba/Desktop/blinking/main/main.c \
 /Users/saba/esp/esp-idf/components/soc/esp32/include/soc/timer_group_struct.h:
 
 /Users/saba/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h:
+
+/Users/saba/esp/esp-idf/components/esp_common/include/esp_task_wdt.h:
 /Users/saba/Desktop/blinking/main/./main.c:
